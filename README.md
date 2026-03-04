@@ -1,16 +1,24 @@
 # JUENO
-GameBot-AI: The Ultimate Video Game AI Blueprint
-GameBot-AI/
+JUENO-AI: The Ultimate Video Game AI Blueprint
+<pre style="background:#0d1117; color:#c9d1d9; padding:16px; border-radius:8px; overflow:auto;">
+JUENO-AI/
 │
-├── agents/                 # The "Thinking" Agent models (PPO, DQN, SAC)
-├── environment/            # Gymnasium custom envs wrapping the game
-├── vision/                 # Computer Vision & Screen capture scripts
-├── memory/                 # Pymem scripts & offset pointers 
-├── inputs/                 # Input simulation (Virtual gamepad, keyboard)
-├── utils/                  # Reward function logic, loggers, helpers
-├── models/                 # Saved PyTorch/SB3 model weights (.zip / .pt)
-├── train.py                # Main script to start RL training
-├── play.py                 # Script to let the trained AI play the game
-├── requirements.txt        # Python dependencies
-├── .gitignore              # Ignore models/, __pycache__/, etc.
-└── README.md               # Project documentation
+├── .github/
+│   ├── workflows/
+│   │   └── python-ci.yml      # CI/CD Automated Testing
+│   └── dependabot.yml         # Auto-updates AI dependencies
+├── agents/                    # SB3 Models (PPO, DQN, SAC architectures)
+├── environment/               # Gymnasium custom envs wrapping the game
+├── vision/                    # Screen capture (mss/dxcam) & OpenCV scripts
+├── memory/                    # Pymem scripts & Cheat Engine offset JSONs
+├── inputs/                    # vgamepad / pydirectinput simulation scripts
+├── utils/                     # Reward function logic, loggers, helpers
+├── tests/                     # Pytest scripts to verify logic
+│
+├── .gitattributes             # Git LFS rules for large AI models
+├── .gitignore                 # Blocks heavy model weights and logs
+├── pyproject.toml             # Ruff linter and modern project config
+├── requirements.txt           # Python dependencies
+├── train.py                   # Main script to start RL training
+└── play.py                    # Script to let the trained AI play the game
+</pre>
