@@ -5,7 +5,7 @@ GameBot-AI/
 ├── agents/                 # The "Thinking" Agent models (PPO, DQN, SAC)
 ├── environment/            # Gymnasium custom envs wrapping the game
 ├── vision/                 # Computer Vision & Screen capture scripts
-├── memory/                 # Pymem scripts & offset pointers
+├── memory/                 # Pymem scripts & offset pointers 
 ├── inputs/                 # Input simulation (Virtual gamepad, keyboard)
 ├── utils/                  # Reward function logic, loggers, helpers
 ├── models/                 # Saved PyTorch/SB3 model weights (.zip / .pt)
