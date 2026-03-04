@@ -1,0 +1,23 @@
+# Deep Learning & RL Frameworks
+torch>=2.0.0
+stable-baselines3[extra]>=2.1.0
+gymnasium>=0.28.1
+
+# Imitation Learning & Datasets
+imitation>=1.0.0
+h5py>=3.8.0
+
+# Computer Vision
+opencv-python>=4.8.0
+mss>=9.0.1
+dxcam>=0.0.5
+ultralytics>=8.0.0
+
+# Input Simulation & Memory (Windows)
+pydirectinput>=1.0.4
+vgamepad>=0.1.0
+pymem>=1.12.0
+
+# Utilities
+numpy>=1.24.0
+matplotlib>=3.7.0
