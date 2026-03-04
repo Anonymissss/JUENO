@@ -1,20 +1,8 @@
 # JUENO
-JUENO-AI: The Ultimate Video Game AI Blueprint
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GameBot-AI Repository Structure</title>
-    <style>
-      body { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; line-height: 1.4; padding: 24px; }
-      pre  { background: #0F7450; color: #e6edf3; padding: 16px; border-radius: 12px; overflow: auto; }
-      .hint { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin-bottom: 12px; color: #444; }
-    </style>
-  </head>
-  <body>
-    
-    <pre>GameBot-AI/
+The Ultimate Video Game AI Blueprint
+
+<pre>
+JUENO-AI/
 │
 ├── .github/
 │   ├── workflows/
@@ -39,6 +27,5 @@ JUENO-AI: The Ultimate Video Game AI Blueprint
 ├── requirements.txt           # Python dependencies
 ├── record_human.py            # Script to record your own gameplay to a dataset
 ├── train.py                   # Master script (Parallel Envs, Frame Stacking, Callbacks)
-└── play.py                    # Script to let the trained AI play the game live</pre>
-  </body>
-</html>
+└── play.py                    # Script to let the trained AI play the game live
+</pre>
