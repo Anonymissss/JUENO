@@ -1,6 +1,9 @@
-# Byte-compiled / optimized / DLL files
+# ==================================================
+# Python Standard
+# ==================================================
+
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -20,27 +23,97 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
+# Unit test / coverage
 htmlcov/
 .tox/
 .nox/
 .coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.pytest_cache/
+
+# Environments
+.env
+.envrc
+.venv
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Ruff
+.ruff_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
+# ==================================================
+# JUENO-AI / GameBot-AI
+# ==================================================
+
+# AI Models
+*.pt
+*.pth
+*.onnx
+
+# Training checkpoints
+models/best_model/
+models/checkpoints/
+models/saved_models/
+
+# Datasets
+*.h5
+*.hdf5
+datasets/
+
+# Logs
+logs/
+tb_logs/
+wandb/
+runs/
+eval_results/
+
+# Vision captures
+vision/captures/
+
+# Gameplay recordings
+*.mp4
+*.mkv
+*.avi
+
+# Debug images
+*.png
+*.jpg
+
+# Memory scanning
+*.CT
+*.memdump
+memory/scans/
+
+# Temp files
+tmp/
+temp/.coverage
 .coverage.*
 .cache
 nosetests.xml
